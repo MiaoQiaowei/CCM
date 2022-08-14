@@ -1,0 +1,10 @@
+__pycache__
+domainbed/facebook.py
+domainbed/data/*
+train_output/*
+*.png
+data/*
+*.txt
+*.DS_Store
+*.vscode
+scripts/*
