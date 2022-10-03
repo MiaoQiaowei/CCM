@@ -20,7 +20,7 @@ from domainbed.lib.misc import (
     random_pairs_of_minibatches, ParamDict, MovingAverage, l2_between_dicts
 )
 
-from domainbed.CausalNet import CausalNet
+from domainbed.CCM import CCM
 
 ALGORITHMS = [
     'ERM',
@@ -49,7 +49,7 @@ ALGORITHMS = [
     'IB_IRM',
     'CAD',
     'CondCAD',
-    'CausalNet'
+    'CCM'
 ]
 
 def get_algorithm_class(algorithm_name):
